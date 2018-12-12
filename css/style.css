@@ -1,0 +1,186 @@
+#header {
+	background-image: url(../images/header_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-attachment: fixed;
+
+}
+
+.navbar {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 1.5rem 1rem;
+}
+
+.overlay-header {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+.jumbotron h1 {
+	color: white;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.jumbotron p {
+	width: 50%;
+	margin: 0px auto 0px auto;
+	color: white;
+}
+
+.jumbotron .btn {
+	background-color: #f7600e;
+	margin-top: 50px;
+}
+
+.jumbotron a {
+	color: white;
+}
+
+.jumbotron img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+}
+
+.jumbotron span {
+	color: #f7600e;
+}
+
+.jumbotron h1 {
+	font-size: 50px;
+}
+
+#work {
+	text-align: center
+}
+
+#work span {
+	color: #f7600e;
+}
+
+#work p {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#work img {
+	width: 350px;
+	height: 300px;
+	margin-bottom: 10px;
+}
+
+.image-content {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#work .btn {
+	border: 1px solid #E3E4E9;
+	background-color: white;
+	color: grey;
+}
+
+#team {
+	margin-top: 50px;
+}
+
+#team span {
+	color: #f7600e;
+}
+
+#team h2 {
+	text-align: center;
+}
+
+#team .team-heading {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.thumbnail img {
+	height: 284px;
+	width: 236px;
+}
+
+.thumbnail img:hover {
+	border-bottom: 3px solid #f7600e;
+	height: 300px;
+	width: 236px
+}
+
+.thumbnail .caption {
+	margin-top: 10px;
+}
+
+#formsection {
+	background-image: url(../images/city.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#formsection h2 {
+	color: white;
+}
+
+#formsection p {
+	width: 50%;
+	margin: 0 auto;
+	color: white;
+
+}
+
+.overlay-formsection {
+	padding-top: 50px;
+	background-color: rgba(0, 0, 0, .8);
+	padding-bottom: 50px;
+}
+
+#formsection span {
+	color: grey;
+}
+
+.form-container {
+	margin-top: 100px;
+}
+
+.form-container .btn {
+	float: left;
+	margin-top: 15px;
+	background-color: grey;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.form-container .btn:hover {
+	background-color: #f7600e;
+}
+
+#footer {
+	background-color: #424242;
+}
+
+#footer p {
+	color: white;
+}
+
+#footer {
+	padding-top: 10px;
+
+}
